@@ -48,9 +48,9 @@ We need the language model, for the sake of this tutorial we will use the small 
 
 sudo python3 -m spacy download en_core_web_sm
 
-as well as
+and this next command will link the model. Be aware, it almost NEVER works until you run the pip reinstall command I have posted below.
 
-python3 -m spacy link en_core_web_sm en_default --force
+python3 -m spacy link en_core_web_sm en -f
 
 If you run into issues here, try running
 
