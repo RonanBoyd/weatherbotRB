@@ -2,13 +2,11 @@ Hi there! This readme is from my blog at https://rboyd.me and you should check i
 
 I will not be using a virtual environment for this tutorial, because the dependencies do not work properly. Instead, I would recommend using Oracle VM. This way, if your project gets too messy, which it did for me when I was figuring this out, you can just scrap everything and not have code all over your PC.
 
-So let’s get started. First,  download a Linux OS and set it up in Oracle VM. I use Xubuntu, but any Ubuntu versions should be functionally the same for this. When you are in your desktop, press Ctrl + Alt + T to open up a terminal and run the following commands:
+So let’s get started. First,  download a Linux OS and set it up in Oracle VM. I use Xubuntu, but any Ubuntu versions should be functionally the same for this. When you are in your desktop, run software updater, restart, press Ctrl + Alt + T to open up a terminal, and run the following commands:
 
 sudo apt-get update
 
 sudo apt-get upgrade
-
-sudo reboot
 
 sudo apt install python-pip
 
